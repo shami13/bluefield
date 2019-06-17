@@ -13,5 +13,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile group: 'es.usc.citius.hipster', name: 'hipster-all', version: '1.0.0-rc2'
+    implementation 'es.usc.citius.hipster:hipster-all:1.0.0-rc2'
+    implementation 'org.apache.commons:commons-lang3:3.6'
+    implementation 'commons-io:commons-io:2.5'
 }
